@@ -71,7 +71,9 @@ AWS Robo Advisor application creates a bot that recommends an investment portfol
 
 - Play video to verify that the bot works and accurately responds during the conversation with the user:
 
-  <video src=Images/Robo_Advisor_Test1_20230309.mp4 controls="controls" style="max-width: 730px;"></video>
+  <!-- <video src=Images/Robo_Advisor_Test1_20230309.mp4 controls="controls" style="max-width: 730px;"></video> -->
+
+  ![](Images/Robo_Advisor_Test1_20230309.gif)
 
 **Enhance the robo advisor with an Amazon Lambda function**<br/>
 
@@ -96,7 +98,9 @@ AWS Robo Advisor application creates a bot that recommends an investment portfol
 
 6. Play video to verify that the bot works and accurately responds during the conversation with the user:
 
-   <video src=Images/Robo_Advisor_Test2_20230310.mp4 controls="controls" style="max-width: 730px;"></video>
+   <!-- <video src=Images/Robo_Advisor_Test2_20230310.mp4 controls="controls" style="max-width: 730px;"></video> -->
+
+   ![](Images/Robo_Advisor_Test2_20230310.gif)
 
 > Getting started<br/>
 
