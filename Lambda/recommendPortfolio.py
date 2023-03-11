@@ -1,6 +1,8 @@
 ### Required Libraries ###
 from datetime import datetime
+
 from dateutil.relativedelta import relativedelta
+
 
 ### Functionality Helper Functions ###
 def parse_int(n):
@@ -87,7 +89,7 @@ def validate_data(age, investment_amount, intent_request):
 
     # Validate that the user is over 0 and less than 65 years old
     if age is not None:
-        age=parse_int(age)
+        age=parse_int(age)  # Since parameters are strings it's important to cast values
         if age < 0 or age > 65:
             return build_validation_result(
                 False,
@@ -154,7 +156,6 @@ def recommend_portfolio(intent_request):
         # Once all slots are valid, a delegate dialog is returned to Lex to choose the next course of action.
         return delegate(output_session_attributes, get_slots(intent_request))
 
-    # Get the portfolio recommendation.
     # Get the portfolio recommendation.
     if risk_level == 'high':
          response = "20% bonds (AGG), 80% equities (SPY)"
