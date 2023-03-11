@@ -105,7 +105,8 @@ AWS Robo Advisor application creates a bot that recommends an investment portfol
 > Getting started<br/>
 
 - To use AWS Robo Advisor first clone the repository to your PC.<br/>
-- Open `Jupyter lab` as per the instructions in the [Installation Guide](#installation-guide) to run the application.<br/>
+- Create and activate an AWS account at [Amazon AWS](https://aws.amazon.com/).<br/>
+- Follow the README.md instructions and AWS documentation to create your own bot and add and integrate [AWS lambda function](https://aws.amazon.com/lambda/).<br/>
 
 ---
 
